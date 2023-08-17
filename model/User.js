@@ -3,9 +3,9 @@ import mysql from 'mysql2/promise';
 
 //mysql 연결
 const conn = mysql.createPool({
-    host:'127.0.0.1',
-    user:'newuser',
-    password:'2230',
+    host:'lecture-test.crtwr5i8is6o.ap-southeast-2.rds.amazonaws.com',
+    user:'admin',
+    password:'dudcksdl23',
     database:'kdt9',
     port:3306,
 });
