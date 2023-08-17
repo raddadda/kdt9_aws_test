@@ -5,7 +5,7 @@ import mysql from 'mysql2/promise';
 const conn = mysql.createPool({
     host:'lecture-test.crtwr5i8is6o.ap-southeast-2.rds.amazonaws.com',
     user:'admin',
-    password:'dudcksdl23',
+    password:'12345678',
     database:'kdt9',
     port:3306,
 });
